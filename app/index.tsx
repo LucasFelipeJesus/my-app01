@@ -7,12 +7,13 @@ export default function App() {
     <View style={styles.container}>
       <Text>LOGIN</Text>
       <Button size="md" variant="solid" action="primary">
-        <ButtonText>Botão de teste</ButtonText>
+        <ButtonText>Botão teste</ButtonText>
       </Button >
       <StatusBar style="auto" />
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
